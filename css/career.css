@@ -1,0 +1,75 @@
+.career-banner{
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+.career-banner::after{
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, .6);
+  top: 0;
+  left: 0;
+}
+.career-banner img{
+  width: 100%;
+}
+.career-banner .banner-text{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 3;
+}
+.career-banner h1{
+  margin: 0;
+  font-size: 42px;
+  color: #fff;
+  line-height: 55px;
+}
+.be-part{
+  display: inline-block;
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+}
+.be-part h2{
+  margin: 0 0 15px;
+  font-size: 38px;
+  line-height: 40px;
+}
+.be-part p{
+  font-size: 18px;
+  font-weight: 500;
+}
+.be-part .part-text{
+  font-size: 18px;
+  max-width: 818px;
+  margin: 0 auto 35px;
+}
+.be-part ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.be-part li{
+  float: left;
+  width: calc(33.33% - 24px);
+  margin: 0 12px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+}
+.be-part li:nth-child(n+4){
+  margin-top: 24px;
+}
+.be-part h3{
+  margin: 0;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 500;
+  color: #4E259D;
+}
