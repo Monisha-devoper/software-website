@@ -1,0 +1,62 @@
+.services-banner{
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        padding: 258px 0;
+        background: url('../images/services-banner.png')center center;
+        background-size: cover;
+    }
+    .services-banner::after{
+        position: absolute;
+        content: "";
+        top: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, .6);
+        height: 100%;
+        width: 100%;
+    }
+    .container-services{
+        width:100%;
+        height:auto;
+    }
+    .container-services h2{
+      font-size: 2rem;
+        text-align: center;
+        margin-top: 60px;
+        
+    }
+    .inner-expertise{
+        display: grid;
+        grid-template-columns: 700px 700px;
+       
+        align-items: center;
+        justify-content: center;
+padding-top: 50px;
+    }
+    .lf-expertise{
+        height: 400px;
+       margin-top: 30px;
+        width:600px;
+        text-align: left;
+        font-size: 25px;
+     
+    }
+    .lf-expertise h3, p {
+        margin-top:-10px ;
+    }
+    .lf-expertise p{
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .rt-expertise img{
+        height:400px;
+        width: 550px;
+        border-radius: 2rem;
+    
+    }
+    .lf-expertise li{
+        font-size: 18px;
+    }
+    .lf-expertise a{
+        font-size: 18px;
+    }

@@ -1,0 +1,131 @@
+.contact-banner{
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+.contact-banner .contact-txt{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 3;
+}
+.contact-banner h1{
+  margin: 0 0 72px;
+  text-align: center;
+  font-size: 52px;
+  line-height: 65px;
+  color: #fff;
+}
+.contact-banner img{
+width: 100%;
+}
+ .contact-form{
+  display:inline-block;
+  width:100%;
+  padding: 60px 0 0;
+}
+.contact-form .container{
+  max-width: 1140px;
+}
+.contact-form .If-contact{
+  width:65%;
+ float:left;
+  padding:0 50px 0 0;
+}
+
+.contact-form .rt-contact{
+  width:30%;
+ float:left;
+}
+.contact-form .inner-container{
+  box-shadow: 0 8px 50px -6px rgba(84,84,120,.26);
+  padding:20px 10px 40px 20px;
+  display:inline-block;
+}
+.inner-container h2{
+  margin:0 0 15px 10px;
+  font-size:24px;
+  line-height:30px;
+}
+.form-group{
+  margin-bottom: 25px;
+  width: 50%;
+  float:left;
+  display: inline-block;
+  padding: 0 10px;
+} 
+.inner-container .form-group.msg{
+  width:100%;
+}
+.inner-container .form-control{
+  outline: none;
+  box-shadow:none;
+ height:35px;
+ border:1px solid #d4d4d4;
+ width:100%;
+ font-size:14px;
+ color:rgb(3, 3, 3);
+ background: #f7fafc;
+ padding:0.375rem 0.75rem;
+ border-radius: 6px;
+ transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+ font-family: 'satoshi';
+}
+.inner-container .form-control.msg-txt{
+  height: 100px;
+    resize: none;
+}
+.inner-container .form-control::placeholder{
+  color: black;
+}
+.inner-container .button{
+  outline: none;
+  border: 0;
+  padding: 10px 70px;
+  cursor: pointer;
+}
+.inner-container .send{
+  padding: 0 0 0 10px;
+  display: block;
+  clear: left;
+}
+.contact-info{
+  display: inline-block;
+  width: 100%;
+  padding: 0 0 20px;
+  margin: 0 0 20px;
+  border-bottom: 1px solid #eee;
+}
+.contact-info h4{
+  margin: 0 0 5px;
+  font-size: 18px;
+  line-height: 24px;
+}
+.contact-info p{
+    margin: 0;
+    font-weight: 500;
+}
+.contact-info ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.contact-info li{
+    padding: 0 0 5px;
+}
+.contact-info li a{
+    color: #000;
+}
+.contact-info li a:hover{
+    color: #3E4095;
+}
+.rt-contact .contact-info:last-child{
+    border-bottom: 0;
+}
+.map-area
+{
+text-align: center;
+ 
+}

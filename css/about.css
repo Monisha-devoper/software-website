@@ -1,4 +1,4 @@
-
+/* banner about */
 .about-main {
   display: inline-block;
   width: 100%;
@@ -91,6 +91,7 @@ p {
   box-shadow: 5px 5px 1px 2.3px rgb(17 68 161 / 50%);
   padding: 105px 20px 170px 40px;
 }
+/* why-assure */
 .why-assure {
   width: 100%;
   float: left;
@@ -138,6 +139,7 @@ p {
   font-size: 18px;
   margin: 10px 0 0;
 }
+/* strong technology */
 .about-strong-tech{
   display: inline-block;
   width: 100%;
@@ -187,112 +189,4 @@ background-color: #68c17f33
   background-color: #00000033;
   margin: 0 auto 0 0;
   }
-  .who-we-are-section{
-    display: inline-block;
-    width: 100%;
-    padding: 0;
-}
-.bottom-expertise{
-  display: inline-block;
-  background: #1b0ba208;
-  width: 100%;
-  padding: 60px 0 50px;
-}
-
-.bottom-expertise  h2{
-  font-size: 38px;
-  line-height: 40px;
-  margin: 0 0 0px;
-}
-.bottom-expertise .lf-expertise{
-  float: left;
-  width: 100%;
-  text-align: center;
-}
-.bottom-expertise .lf-expertise p{
-  font-size: 18px;
-  font-weight: 500;
-  max-width: 800px;
-  margin: 15px auto 20px;
-}
-.bottom-expertise .rt-expertise{
-  float: left;
-  width: 100%;
-  padding: 40px 0 0;
-}
-.bottom-expertise .rt-expertise ul{
-  margin: 0 -20px;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  list-style: none;
-}
-.bottom-expertise .rt-expertise li{
-  width: 23.33%;
-  float: left;
-  padding: 0 15px 30px;
-}
-.bottom-expertise .rt-expertise li:nth-child(n+3){
-  padding: 0 15px 0;
-}
-.bottom-expertise .rt-expertise li:last-child img{
-  height: 225px;
-  margin-top: 5px;
-
-}
-.bottom-expertise .rt-expertise a{
-  display: block;
-  position: relative;
-  transition: all 0.3s ease-in-out 0s;
-}
-.bottom-expertise .rt-expertise img{
-  border-radius: 10px;
-}
-.bottom-expertise .rt-expertise .web-inner{
-  position: absolute;
-  z-index: 1;
-  left: 0;
-  padding: 0 25px;
-  bottom: 20px;
-   transition: all 0.3s ease-in-out 0s;
-}
-.bottom-expertise .rt-expertise a:hover .web-inner{
-  visibility: visible;
-  top: 50%;
-  transform: translateY(-50%);
-  bottom: inherit;
-}
-.bottom-expertise .rt-expertise a:hover p{
-  height: 97px;
-  visibility: visible;
-}
-.bottom-expertise .rt-expertise a::after{
-  position: absolute;
-  left: 0;
-  top: 0;
-  content: "";
-  border-radius: 10px;
-  height: 100%;
-  width: 100%;
-  background: rgba(47,47,47,0.8);
-}
-.bottom-expertise .button{
-  padding: 7px 26px 8px;
-}
-.bottom-expertise .web-inner h4{
-  margin: 0 0 15px;
-  display: flex;
-  align-items: center;
-  font-size: 24px;
-  line-height: 30px;
-  color: #fff;
-}
-.bottom-expertise .web-inner p{
-  margin: 0;
-  height: 0;
-  font-weight: 500;
-  overflow: hidden;
-  visibility: hidden;
-  color: #fff;
-}
+ 
